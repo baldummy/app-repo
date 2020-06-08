@@ -7,7 +7,7 @@ previewConfig:
     host:
       template: client-libraries-{SHA256_8CHAR_BRANCH_HASH}.shapp-test.os1.balgroupit.com
   replace:
-  - path: client-libraries.image.tag
+  - path: testapplication.image.tag
     variable: GIT_COMMIT
   - path: client-libraries.network.http.ingress.host
     variable: ROUTE_HOST 
