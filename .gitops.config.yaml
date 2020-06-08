@@ -1,7 +1,7 @@
 deploymentConfig:
-  org: <dein github name>
-  repository: <dein config repo name>
-  applicationName: client-libraries
+  org: baldummy
+  repository: config-repo
+  applicationName: testapplication
 previewConfig:
   route:
     host:
