@@ -9,5 +9,5 @@ previewConfig:
   replace:
   - path: testapplication.image.tag
     variable: GIT_COMMIT
-  - path: client-libraries.network.http.ingress.host
+  - path: testapplication.network.http.ingress.host
     variable: ROUTE_HOST 
