@@ -1,0 +1,13 @@
+deploymentConfig:
+  org: <dein github name>
+  repository: <dein config repo name>
+  applicationName: client-libraries
+previewConfig:
+  route:
+    host:
+      template: client-libraries-{SHA256_8CHAR_BRANCH_HASH}.shapp-test.os1.balgroupit.com
+  replace:
+  - path: client-libraries.image.tag
+    variable: GIT_COMMIT
+  - path: client-libraries.network.http.ingress.host
+    variable: ROUTE_HOST 
