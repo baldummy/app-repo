@@ -1,5 +1,5 @@
 deploymentConfig:
-  org: baldummy
+  org: TADA
   repository: config-repo
   applicationName: testapplication
 previewConfig:
@@ -10,4 +10,4 @@ previewConfig:
   - path: testapplication.image.tag
     variable: GIT_COMMIT
   - path: testapplication.network.http.ingress.host
-    variable: ROUTE_HOST 
+    variable: ROUTE_HOST
